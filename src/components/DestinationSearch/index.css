@@ -1,0 +1,37 @@
+.bg-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+  height: 100vh;
+}
+
+.heading {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+.search-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.search-bar {
+  width: 70px;
+  height: 30px;
+  border-radius: 4px;
+}
+.search-icon {
+  height: 15px;
+  width: 15px;
+}
+.destination-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px;
+  padding: 3px;
+}

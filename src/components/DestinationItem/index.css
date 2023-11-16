@@ -1,0 +1,20 @@
+.destination-items {
+  list-style-type: none;
+  margin: 5px;
+  padding: 9px;
+}
+.image {
+  width: 160px;
+  height: 150px;
+  border-radius: 6px;
+}
+.name {
+  color: black;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+@media screen and (min-width: 768px) {
+  .name {
+    font-size: 23px;
+  }
+}
